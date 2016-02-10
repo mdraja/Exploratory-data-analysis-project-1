@@ -55,4 +55,4 @@ png(filename='plots/plot1.png',width=480,height=480,units='px')
 hist(power.consumption$GlobalActivePower,main='Global Active Power',xlab='Global Active Power (kilowatts)',col='red')
 
 # Turn off device
-# x<-dev.off()
+x<-dev.off()
