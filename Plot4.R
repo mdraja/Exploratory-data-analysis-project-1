@@ -71,4 +71,4 @@ lines(power.consumption$DateTime,power.consumption$SubMetering3,col=lncol[3])
 plot(power.consumption$DateTime,power.consumption$GlobalReactivePower,xlab='datetime',ylab='Global_reactive_power',type='l')
 
 # close device
-# x<-dev.off()
+x<-dev.off()
