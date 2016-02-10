@@ -62,4 +62,4 @@ lines(power.consumption$DateTime,power.consumption$SubMetering3,col=lncol[3])
 legend('topright',legend=lbls,col=lncol,lty='solid')
 
 # close device
-# x<-dev.off()
+x<-dev.off()
